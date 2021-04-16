@@ -24,6 +24,6 @@ spec:
      restartPolicy: Never
      containers:
      - name: post-install-job
-       image: "alpine:3.3"
+       image: "alpine:3.13.5"
        imagePullPolicy: IfNotPresent
        command: ['sh', '-c', 'echo post-install Job Pod is Running ; sleep 2']
